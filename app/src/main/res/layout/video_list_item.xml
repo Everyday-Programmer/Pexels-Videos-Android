@@ -10,6 +10,6 @@
         android:layout_height="200sp"
         android:adjustViewBounds="true"
         android:scaleType="centerCrop"
-        android:id="@+id/list_item_image"/>
+        android:id="@+id/list_item_thumbnail"/>
 
 </RelativeLayout>

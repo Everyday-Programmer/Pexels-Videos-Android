@@ -9,14 +9,14 @@
     <com.google.android.material.appbar.MaterialToolbar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="?attr/colorPrimary"
-        android:id="@+id/toolbar"/>
+        android:id="@+id/toolbar"
+        android:background="?attr/colorPrimary"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/recycler"
         android:layout_below="@id/toolbar"
+        android:id="@+id/recycler"
         android:clipToPadding="false"
         app:spanCount="2"
         app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"/>
